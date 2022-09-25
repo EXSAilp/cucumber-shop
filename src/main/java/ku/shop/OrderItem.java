@@ -12,4 +12,12 @@ public class OrderItem {
     public double getSubtotal() {
         return prod.getPrice() * quantity;
     }
+
+    public double getStock() {
+        return prod.getStock();
+    }
+
+    public String getProductName() {
+        return prod.getName();
+    }
 }
